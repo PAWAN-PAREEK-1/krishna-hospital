@@ -1,0 +1,82 @@
+
+.about-main{
+    display: flex;
+    align-items: center;
+    gap: 0.62rem;
+}
+.about-span h3{
+    color: var(--Dark, #333);
+
+/* H3 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.about-span{
+    margin-left: 1.3rem;
+    margin-bottom: 0.31rem;
+}
+
+.about-span-box{
+    width: 5.375rem;
+height: 2.25rem;
+top: -0.8px;
+  left: -24.9px;
+}
+.about-left h1{
+    color: var(--primery, #A639DF);
+
+/* H2 */
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.about-left p{
+    color: var(--Dark, #333);
+
+/* H4 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+
+}
+.about-box{
+    margin-block: 1.88rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.88rem;
+
+}
+.about-box-1{
+    display: flex;
+    align-items: center;
+    gap: 1.81rem;
+    width: 20rem;
+}
+.about-right-box h4{
+    color: var(--Dark, #333);
+
+/* Sub 1 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.about-right-box p{
+    color: var(--Grey, #515151);
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

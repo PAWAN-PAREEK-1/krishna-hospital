@@ -1,0 +1,39 @@
+.med-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.12rem;
+
+}
+.med-span-box h3{
+    text-align: center;
+
+}
+.med-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.med-top h1{
+    color: var(--primery, #A639DF);
+text-align: center;
+
+/* H2 */
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0.31rem 0 0.61rem 0;
+}
+.med-top p{
+    color: var(--Dark, #333);
+
+/* H4 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+}
