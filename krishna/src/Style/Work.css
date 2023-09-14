@@ -1,0 +1,93 @@
+.work-index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.12rem;
+}
+.work-left{
+    padding: 3.12rem;
+    border-radius: 1.25rem;
+background: linear-gradient(151deg, rgba(174, 59, 233, 0.10) 2.38%, rgba(166, 56, 223, 0.00) 83.74%);
+}
+.work-left h3{
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 2.3125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin:1.87rem 0 0.62rem 0
+
+}
+.work-left p{
+    color: var(--Dark, #333);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 160% */
+    margin-bottom: 1.25rem;
+
+}
+.work-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-time h4{
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+align-items: center;
+gap: 0.88rem;
+padding-block: 0.62rem;
+}
+.work-left hr{
+    height: 0.0625rem;
+    border: #FAEAFF;
+    background: #FAEAFF;
+}
+.work-btn{
+    margin-top: 1.88rem !important;
+    margin: auto;
+}
+.work-box{
+    border-radius: 1.25rem;
+
+background: rgba(0, 152, 218, 0.1);
+padding: 1.88rem;
+margin-bottom: 0.94rem;
+}
+.work-box h2{
+    color: var(--Dark, #333);
+
+/* H3 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 0.62rem;
+}
+.work-box p{
+    color: var(--Grey, #515151);
+
+/* H4 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+}
+.wbox2{
+    background: rgba(207, 69, 69, 0.1);
+
+}
+.wbox3{
+    background: rgba(146, 69, 207, 0.1);
+
+}
