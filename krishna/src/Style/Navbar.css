@@ -13,10 +13,7 @@ a {
 
 .navbar{
     padding: 1.56rem 15rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 9999;
+   
     width: 100%;
     background: #FFF;
 }
