@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/Medical.css";
 import "../Style/Global.css";
+import bad from "../Style/bad.svg";
 
 const Medical = () => {
   return (
