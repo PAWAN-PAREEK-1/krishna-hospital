@@ -12,12 +12,19 @@ a {
 
 
 .navbar{
-    padding: 0.63rem 15rem;
+    padding: 1.56rem 15rem;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 9999;
     width: 100%;
+    background: #FFF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.12rem;
 }
 
 .NavbarList li {
@@ -27,8 +34,8 @@ a {
 }
 
 .NavbarList li a {
-    color: #FFF;
-font-family: Jost;
+    color: #333;
+font-family: Poppins;
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
@@ -37,8 +44,8 @@ line-height: normal;
 }
 
 .NavbarList li a:hover {
-    color: var(--primery, #82A93C);
-font-family: Jost;
+    color: var(--primery, #A639DF);
+font-family: Poppins;
 font-size: 1.125rem;
 font-style: normal;
 font-weight: 600;
@@ -46,15 +53,15 @@ line-height: normal;
 }
 .NavbarList li.active a
  {
-  color: var(--primery, #82A93C);
-  font-family: Jost;
+  color: var(--primery, #A639DF);
+  font-family: Poppins;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 .NavbarList li.active div{
-    background-color: #82A93C !important;
+    background-color: #A639DF !important;
 }
 .NavbarList li div {
   width: 0.5625rem;
@@ -68,30 +75,29 @@ line-height: normal;
 
 .NavbarList {
     display: flex;
-    gap: 2.5rem;
+    gap: 1.87rem;
+    margin-top: 1.3rem;
 }
 .quote-btn{
-    border: 1px solid #FFF;
-background: none;
-padding: 0.80rem 2.19rem;
+    border-radius: 3.75rem;
+    border: 1px solid var(--Dark, #333);
+padding: 0.5625rem 0.9375rem;
 
 
 }
+
 .quote-btn a{
-    color: #FFF;
-font-family: Jost;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-display: inline-flex;
-align-items: center;
-gap: 0.94rem;
+    color: var(--Dark, #333);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+gap: 0.62rem;
 }
 
-/* .btn a{
-    color: #BA9778;
-} */
 
 .right-nav{
     display: flex;

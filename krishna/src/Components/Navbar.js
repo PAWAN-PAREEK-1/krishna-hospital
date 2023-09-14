@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Style/Navbar.css";
-// import logo from "../Assets/img/logo.svg";
-// import arrow from "../Assets/img/twoarrow.svg";
+import logo from "../Assets/img/logo.svg";
+import call from "../Assets/img/call.svg";
 // import search from "../Assets/img/search.svg";
 
 
-const Navbar = ({activeUrl}) => {
+const Navbar = ({ activeUrl }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -21,7 +21,7 @@ const Navbar = ({activeUrl}) => {
     <div>
       <div className="navbar ">
         <div className="logo">
-          <img src={""} alt="" />
+          <img src={logo} alt="" />
         </div>
         <nav>
           <div
@@ -32,9 +32,9 @@ const Navbar = ({activeUrl}) => {
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-{}
+          { }
           <ul className="NavbarList ">
-            <li  className={activeUrl === "/" ? "active" : null}>
+            <li className={activeUrl === "/" ? "active" : null}>
               <NavLink
                 exact
                 to="/"
@@ -45,17 +45,17 @@ const Navbar = ({activeUrl}) => {
               </NavLink>
               <div></div>
             </li>
-            <li className={activeUrl == "/About" ? "active" : null}>
-              <NavLink to="/About"  onClick={closeMenu}>
+            <li className={activeUrl === "/About" ? "active" : null}>
+              <NavLink to="/About" onClick={closeMenu}>
                 About Us
               </NavLink>
-<div></div>
+              <div></div>
             </li>
             <li className={activeUrl == "/Pateint" ? "active" : null}>
-              <NavLink to="/Pateint"  onClick={closeMenu}>
-              Pateint
+              <NavLink to="/Pateint" onClick={closeMenu}>
+                Pateint
               </NavLink>
-<div></div>
+              <div></div>
             </li>
             <li className={activeUrl == "/Facility" ? "active" : null}>
               <NavLink
@@ -66,7 +66,7 @@ const Navbar = ({activeUrl}) => {
                 Facility
 
               </NavLink>
-<div></div>
+              <div></div>
             </li>
             <li className={activeUrl == "/Gallery" ? "active" : null}>
               <NavLink
@@ -87,31 +87,32 @@ const Navbar = ({activeUrl}) => {
                 // className="active"
                 onClick={closeMenu}
               >
-               Blog
+                Blog
 
               </NavLink>
               <div></div>
             </li>
             <li className={activeUrl == "/Contact" ? "active" : null}>
-              <NavLink to="/Contact"  onClick={closeMenu}>
-              Contact
+              <NavLink to="/Contact" onClick={closeMenu}>
+                Contact
 
               </NavLink>
               <div></div>
             </li>
           </ul>
-        </nav>
-
-        <div className="right-nav">
+          <div className="right-nav">
           <div className="search">
             <a href="">
               <img src={""} alt="" />
             </a>
           </div>
           <div className="quote-btn cursor-pointer">
-            <a href="">Get Quotes <img src={""} alt="" /> </a>
+            <a href=""><img src={call} alt="" />Call Now  </a>
           </div>
         </div>
+        </nav>
+
+
       </div>
       {menuOpen && (
         <div className="mobileNav">
@@ -119,7 +120,7 @@ const Navbar = ({activeUrl}) => {
             <img src="../public/assets/img/close.svg" alt="" />
           </div>
           <ul>
-          <li>
+            <li>
               <NavLink
                 exact
                 to="/"
@@ -154,12 +155,12 @@ const Navbar = ({activeUrl}) => {
             </li>
             <li>
               <NavLink to="/Gallery" className="active" onClick={closeMenu}>
-              Gallery
+                Gallery
               </NavLink>
             </li>
             <li>
               <NavLink to="/Blog" className="active" onClick={closeMenu}>
-              Blog
+                Blog
               </NavLink>
             </li>
             <li>
@@ -168,7 +169,7 @@ const Navbar = ({activeUrl}) => {
                 className="active"
                 onClick={closeMenu}
               >
-               Contact
+                Contact
               </NavLink>
             </li>
           </ul>

@@ -7,7 +7,7 @@ const Home = () => {
 
     <Suspense fallback={<div><Loading/></div>}>
 
-        <Navbar/>
+        <Navbar activeUrl={"/"}/>
 
     <div>Home</div>
 
