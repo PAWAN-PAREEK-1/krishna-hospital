@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3.12rem;
+
 
 }
 .med-span-box h3{
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom:5.63rem ;
 }
 .med-top h1{
     color: var(--primery, #A639DF);
@@ -36,4 +37,56 @@ font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: 2rem; /* 177.778% */
+}
+.med-box {
+	width: 21.125rem;
+	height: 16.1875rem;
+	padding: 4rem 1.25rem 3.31rem;
+	border: 1px solid #B6B6B6;
+	border-radius: 15px;
+    position: relative;
+}
+.med-box h2{
+    color: var(--Dark, #333);
+text-align: center;
+
+/* H3 */
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.med-box p{
+    color: var(--Grey, #515151);
+text-align: center;
+
+/* H4 */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 177.778% */
+}
+#med-top-img {
+	position: absolute;
+	top: -16%;
+	left: 37%;
+}
+#med-bottom-img {
+    position: absolute;
+    bottom: -9%;
+    left: 37%;
+    background-color: white;
+    display: none;
+}
+.med-box:hover #med-bottom-img{
+    display: inline-block;
+}
+
+.med-bottom{
+    display: flex;
+    gap: 1.88rem;
+    align-items: center;
+    margin-bottom: 3.31rem;
 }

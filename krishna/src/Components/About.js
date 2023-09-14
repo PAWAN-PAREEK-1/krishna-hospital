@@ -1,7 +1,7 @@
 import React from "react";
 import "../Style/About.css";
 import "../Style/Global.css";
-import con from "../Assets/img/con.svg";
+import con from "../Assets/img/confi.svg";
 import cal from "../Assets/img/cal.svg";
 import time from "../Assets/img/time.svg";
 import heart from "../Assets/img/heart.svg";
