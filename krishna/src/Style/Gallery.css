@@ -29,9 +29,9 @@ main#carousel {
 
   div.item {
     position: absolute;
-    width: 300px;
-    height: 400px;
-    background-color: coral;
+    width: 28.0625rem;
+    height: 31.6875rem;
+    border-radius: 0.9375rem;
     --r: calc(var(--position) - var(--offset));
     --abs: max(calc(var(--r) * -1), var(--r));
     transition: all 0.25s linear;
@@ -42,23 +42,28 @@ main#carousel {
 
   div.item:nth-of-type(1) {
     --offset: 1;
-    background-color: #90f1ef;
+   background-image: url(../Assets/img/g1.svg);
+   background-size: cover;
   }
   div.item:nth-of-type(2) {
     --offset: 2;
-    background-color: #ff70a6;
+    background-image: url(../Assets/img/g1.svg);
+    background-size: cover;
   }
   div.item:nth-of-type(3) {
     --offset: 3;
-    background-color: #ff9770;
+    background-image: url(../Assets/img/g1.svg);
+    background-size: cover;
   }
   div.item:nth-of-type(4) {
     --offset: 4;
-    background-color: #ffd670;
+    background-image: url(../Assets/img/g1.svg);
+    background-size: cover;
   }
   div.item:nth-of-type(5) {
     --offset: 5;
-    background-color: #e9ff70;
+    background-image: url(../Assets/img/g1.svg);
+    background-size: cover;
   }
 
   input:nth-of-type(1) {

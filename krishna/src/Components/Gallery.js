@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/Gallery.css";
+import g1 from "../Assets/img/g1.svg";
 
 const Gallery = () => {
   return (
@@ -21,11 +22,11 @@ const Gallery = () => {
         <input type="radio" name="position" />
         <input type="radio" name="position" />
         <main id="carousel">
-          <div className="item" />
-          <div className="item" />
-          <div className="item" />
-          <div className="item" />
-          <div className="item" />
+          <div className="item" ></div>
+          <div className="item" ></div>
+          <div className="item" ></div>
+          <div className="item" ></div>
+          <div className="item" ></div>
           <main>
           </main></main>
           </div>
