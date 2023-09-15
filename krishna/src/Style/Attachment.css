@@ -1,0 +1,8 @@
+.com{
+    display: flex;
+    align-items: center;
+    gap: 3.75rem;
+    border-top: 0.2px solid rgba(166, 57, 223, 0.1);
+    border-bottom: 0.2px solid rgba(166, 57, 223, 0.1);
+    padding-block: 3.12rem;
+}
