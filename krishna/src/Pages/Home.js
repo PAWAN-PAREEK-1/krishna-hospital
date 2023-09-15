@@ -18,6 +18,7 @@ const Working = lazy(() => import("../Components/Working"));
 const Gallery = lazy(() => import("../Components/Gallery"));
 const Blog = lazy(() => import("../Components/Blog"));
 const Price = lazy(() => import("../Components/Price"));
+const Insurance = lazy(() => import("../Components/Insurance"));
 
 
 
@@ -99,6 +100,7 @@ const Home = () => {
         <Gallery/>
         <Blog/>
         <Price/>
+        <Insurance/>
       </div>
     </Suspense>
   );
