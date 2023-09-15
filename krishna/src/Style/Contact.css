@@ -1,0 +1,56 @@
+.med-top2 p{
+    padding-inline: 17rem;
+    text-align: center;
+}
+.contact-bottom{
+    /* display: flex;
+    align-items: center; */
+    position: relative;
+}
+.contact-left img{
+    border-radius: 0.9375rem;
+    width: 62.1875rem;
+    height: 39.8125rem;
+
+}
+.contact-form{
+    padding: 3.13rem;
+    border-radius: 0.9375rem;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
+width: 44.0625rem;
+position: absolute;
+top: 2.5rem;
+right: 0;
+
+}
+.contact-form h2{
+    color: var(--Dark, #333);
+
+font-family: Poppins;
+font-size: 1.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1.56rem 0 1.88rem 0;
+    gap: 0.94rem;
+}
+input,textarea {
+    padding: 0.94rem 1.87rem;
+    border-radius: 0.3125rem;
+border: 1px solid #E8E8E8;
+}
+input::placeholder,textarea::placeholder {
+    color: #5B5B5B;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

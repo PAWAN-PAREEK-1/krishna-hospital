@@ -9,6 +9,7 @@
     background: linear-gradient(180deg, #FFF 15.42%, rgba(255, 255, 255, 0.00) 100%),url(../Assets/img/insbg.svg),url(../Assets/img/insbg2.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 5rem;
 }
 .ins-box{
     width: 23%;
