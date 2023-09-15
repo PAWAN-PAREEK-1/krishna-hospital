@@ -5,6 +5,7 @@ import b1 from "../Assets/img/b1.svg";
 import b2 from "../Assets/img/b2.svg";
 import prev from "../Assets/img/prev.svg";
 import next from "../Assets/img/next.svg";
+import rightarrow from "../Assets/img/rightarrow.svg";
 
 
 const Blog = () => {
@@ -68,10 +69,10 @@ const Blog = () => {
 
   return (
     <div>
-      <div className="index">
+      <div className="index blogbg">
         <div className="main-blog">
           <div className="blog-top">
-            <div className="med-top">
+            <div className="med-top med-top2">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
                 <h3>Latest Insights</h3>
@@ -89,7 +90,7 @@ const Blog = () => {
                   <h2>{post.title}</h2>
                   <h4>{post.date}</h4>
                   <p>{post.content}</p>
-                  <a href={post.link}><h3>Read More</h3></a>
+                  <a href={post.link}><h3>Read More <img src={rightarrow} alt="" /></h3></a>
                   </div>
                 </div>
               ))}
@@ -100,6 +101,13 @@ const Blog = () => {
              <img id="bnext" onClick={nextClickHandler} src={next} alt="" />
             </div>
           </div>
+          <a href="">
+                <div className="all-btn blog-btn">
+                  <h4>
+                  View More <img src={play} alt="" />
+                  </h4>
+                </div>
+              </a>
         </div>
       </div>
     </div>
