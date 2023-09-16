@@ -4,6 +4,7 @@ const Navbar = lazy(() => import('../Components/Navbar'));
 const Footer = lazy(() => import("../Components/Footer"));
 const Price = lazy(() => import("../Components/Price"));
 
+
 const Pateint = () => {
   return (
 
