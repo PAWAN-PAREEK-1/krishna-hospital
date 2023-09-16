@@ -98,7 +98,7 @@ const Blog = () => {
     // Add more blog posts as needed
   ];
 
-  const [postsToShow, setPostsToShow] = useState(2); // Initially, show 2 blog posts
+  const [postsToShow, setPostsToShow] = useState(6); // Initially, show 2 blog posts
 
   // Handler for "Load More" button
   const loadMoreClickHandler = () => {
@@ -124,7 +124,7 @@ const Blog = () => {
               </div>
             </div>
             <div className="blog-bottom">
-              <div className="blogs">
+              <div className="blogs blogs-page">
                 {blogPosts.slice(0, postsToShow).map((post, index) => (
                   <div className="blog-post blog-post-page" key={index}>
                     <img src={post.image} alt={post.title} />

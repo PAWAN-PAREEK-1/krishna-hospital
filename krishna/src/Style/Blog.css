@@ -154,5 +154,12 @@ gap: 0.62rem;
   }
 
   .blog-post-page{
-    width: 28.75rem;
+    width: 27.75rem;
+    min-height:36rem ;
+  }
+  .blogs-page{
+    flex-wrap: wrap;
+  }
+  .load-more-button{
+    cursor: pointer;
   }
