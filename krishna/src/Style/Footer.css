@@ -1,0 +1,73 @@
+.index-footer{
+    padding: 5rem 15rem 0;
+    background: #101010;
+    background-image: url('../Assets/img/fbg.svg'), url('../Assets/img/fbg2.svg');
+  background-position: left top, right bottom; /* Position the images */
+  background-repeat: no-repeat, no-repeat;
+
+
+
+}
+
+footer{
+    display: flex;
+    align-items:self-start;
+    padding-bottom: 3.81rem;
+    justify-content: space-between;
+    gap: 16.75rem;
+
+}
+
+.f-social{
+    display: flex;
+    align-items: center;
+    margin-top:1.87rem ;
+    gap: 1.25rem;
+}
+
+footer h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 1.25rem;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.63rem;
+}
+footer a ,.col-2 h2{
+    color: #C1C1C1;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.col-main{
+    display: flex;
+    gap: 6.75rem;
+}
+
+.col-2 h2{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.63rem;
+
+}
+.copy{
+    border-top:1px solid #1D1D1D ;
+    padding-block: 1.25rem;
+    color: #949494;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+}
+
