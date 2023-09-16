@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
 const Loading = lazy(() => import('../Components/Loading'));
 const Navbar = lazy(() => import('../Components/Navbar'));
+const Footer = lazy(() => import("../Components/Footer"));
 
 const Gallery = () => {
   return (
@@ -9,7 +10,20 @@ const Gallery = () => {
 
         <Navbar activeUrl={"/Gallery"}/>
 
-    <div>Gallery</div>
+    <div>
+
+           <div className="hero-all">
+          <h2>Gallery</h2>
+        </div>
+
+        <div className="index">
+          
+        </div>
+
+    </div>
+
+
+    <Footer />
 
     </Suspense>
   )
