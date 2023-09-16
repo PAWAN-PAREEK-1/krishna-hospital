@@ -20,7 +20,7 @@ const Footer = lazy(() => import("../Components/Footer"));
 
 
 const Gallery = () => {
-  const [activeHeading, setActiveHeading] = useState(null);
+  const [activeHeading, setActiveHeading] = useState(0);
 
   // Define your data structure with headings and associated images
   const galleryData = [

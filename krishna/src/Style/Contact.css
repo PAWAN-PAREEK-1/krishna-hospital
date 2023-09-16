@@ -19,9 +19,7 @@
 background: #FFF;
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
 width: 44.0625rem;
-position: absolute;
-top: 2.5rem;
-right: 0;
+
 
 }
 .contact-form h2{
@@ -53,4 +51,81 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+.contact-com{
+    position: absolute;
+    top: 2.3rem;
+    right: 0;
+    display: flex;
+    gap: 1.25rem;
+}
+.contact-right{
+    display: flex;
+
+}
+.con{
+    position: absolute;
+top: 1rem;
+right: 0;
+display: flex;
+gap: 1.25rem;
+}
+.social-icons-conatct{
+    padding: 1.88rem 1.94rem;
+    width: 26.8125rem;
+height: 24.625rem;
+border-radius: 0.9375rem;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+.de{
+    margin-top: 1.25rem;
+}
+.social-detail h3{
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 600;
+padding-bottom: 0.63rem;
+
+}
+.social-detail h4{
+    color: #7F7F7F;
+font-family: Poppins;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.0625rem; /* 150% */
+}
+
+.social-2{
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    padding: 1.69rem 1.87rem;
+    margin-top: 1.56rem;
+    width: 26.8125rem;
+    height: fit-content;
+    border-radius: 0.9375rem;
+background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
+}
+.social-links {
+    display: flex;
+    gap: 1.96rem;
+    align-items: center;
+    margin-top: 1rem;
+
+
+}
+.contact-form-page{
+    width: 35.625rem;
+}
+.contact-left-page img{
+    width: fit-content;
+
 }

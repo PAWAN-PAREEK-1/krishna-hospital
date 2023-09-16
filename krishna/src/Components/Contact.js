@@ -23,7 +23,7 @@ const Contact = () => {
                     <div className="contact-left">
                         <img src={contact} alt="" />
                     </div>
-                    <div className="contact-right">
+                    <div className="contact-right contact-com">
                         <div className="contact-form">
                             <h2>Contact Us</h2>
                             <div className="inputs">
