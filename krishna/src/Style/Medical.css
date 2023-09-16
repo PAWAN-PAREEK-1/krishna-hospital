@@ -106,7 +106,7 @@
 
 .med-bottom-page {
     flex-wrap: wrap;
-    gap: 1.78rem;
+    gap: 1.68rem;
     margin-bottom: 0;
 
 }
@@ -164,7 +164,6 @@ line-height: 2rem; /* 160% */
 
     padding: 1.56rem 1.88rem;
     width: 48%;
-height: 5.125rem;
     background: #FFF;
 filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.05));
 }

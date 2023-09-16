@@ -97,6 +97,46 @@ const medBoxData = [
   },
 ];
 
+
+
+const scopeBoxData = [
+  {
+    title: "Treatment of Chest Pain.",
+  },
+  {
+    title: "Treatment of Viral Fever",
+  },
+  {
+    title: "Treatment of all Skin Disease.",
+  },
+  {
+    title: "Treatment of Malaria, Dengue Fever.",
+  },
+  {
+    title: "Treatment of Paralysis and Migraine.",
+  },
+  {
+    title: "Treatment of Asthma, T.B and Lung Disease",
+  },
+
+  {
+    title: "Treatment of Anemia and Thyroid Disease",
+  },
+  {
+    title: "Treatment of Kidney and Urinary track disease",
+  },
+  {
+    title: "Treatment of Jaundice, Liver and Intestine.",
+  },
+  {
+    title: "Treatment of Uncontrolled Diabetes and Diabetes Management.",
+  },
+  {
+    title: "Diagnosis and Treatment of Heart Disease, Hypertension, Diabetes",
+  },
+
+];
+
 const Facility = () => {
   return (
     <Suspense fallback={<div><Loading /></div>}>
@@ -131,20 +171,15 @@ const Facility = () => {
 
 
           <div className="scope">
-                  <h1>Scope Of Services</h1>
-                  <hr />
-
-                  <div className="scope-detail">
-                    <div className="scope-box">
-                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
-                    </div>
-                    <div className="scope-box">
-                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
-                    </div>
-                    <div className="scope-box">
-                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
-                    </div>
-                  </div>
+            <h1>Scope Of Services</h1>
+            <hr />
+            <div className="scope-detail">
+              {scopeBoxData.map((box, index) => (
+                <div className="scope-box" key={index}>
+                  <h3><img src={leftarrow} alt="" />{box.title}</h3>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
