@@ -90,3 +90,18 @@ line-height: 2rem; /* 177.778% */
     align-items: center;
     margin-bottom: 3.31rem;
 }
+
+
+.med-bottom-page{
+    flex-wrap: wrap;
+    gap: 1.78rem;
+}
+.med-box-page {
+    flex: 1; /* Make each item equally spaced in the row */
+    margin-top: 0; /* Reset top margin for all items */
+
+    /* Add margin to the first item in each row (excluding the first row) */
+    &:not(:first-child):nth-child(4n + 1) {
+      margin-top: 3.13remb !important;
+    }
+  }
