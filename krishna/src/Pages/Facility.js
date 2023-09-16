@@ -7,13 +7,54 @@ import arrow from "../Assets/img/arrow.svg";
 import time from "../Assets/img/24.svg";
 import dig from "../Assets/img/dig.svg";
 import build from "../Assets/img/build.svg";
-import play from "../Assets/img/play.svg";
+import leftarrow from "../Assets/img/leftarrow.svg";
+
 
 const Loading = lazy(() => import('../Components/Loading'));
 const Navbar = lazy(() => import('../Components/Navbar'));
 const Footer = lazy(() => import("../Components/Footer"));
 
 const medBoxData = [
+  {
+    title: "I.C.U equipped..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: bad,
+  },
+  {
+    title: "24 Hours Emergency",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: time,
+  },
+  {
+    title: "Mediclaim facility ava..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: build,
+  },
+  {
+    title: "Diagnosis..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: dig,
+  },
+  {
+    title: "I.C.U equipped..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: bad,
+  },
+  {
+    title: "24 Hours Emergency",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: time,
+  },
+  {
+    title: "Mediclaim facility ava..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: build,
+  },
+  {
+    title: "Diagnosis..",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
+    imgSrc: dig,
+  },
   {
     title: "I.C.U equipped..",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec sapien ut felis finibus.",
@@ -66,7 +107,7 @@ const Facility = () => {
         </div>
         <div className="index">
           <div className="med-index">
-            <div className="med-top">
+            <div className="med-top med-top-page">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
                 <h3>Medical Infrastructure List</h3>
@@ -86,6 +127,24 @@ const Facility = () => {
                 </a>
               ))}
             </div>
+          </div>
+
+
+          <div className="scope">
+                  <h1>Scope Of Services</h1>
+                  <hr />
+
+                  <div className="scope-detail">
+                    <div className="scope-box">
+                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
+                    </div>
+                    <div className="scope-box">
+                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
+                    </div>
+                    <div className="scope-box">
+                      <h3><img src={leftarrow} alt="" />Treatment of Chest Pain.</h3>
+                    </div>
+                  </div>
           </div>
         </div>
       </div>

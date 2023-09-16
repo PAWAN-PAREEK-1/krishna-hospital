@@ -1,4 +1,4 @@
-.med-index{
+.med-index {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,73 +6,84 @@
 
 
 }
-.med-span-box h3{
+
+.med-span-box h3 {
     text-align: center;
 
 }
-.med-top{
+
+.med-top {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom:5.63rem ;
+    margin-bottom: 5.63rem;
 }
-.med-top h1{
-    color: var(--primery, #A639DF);
-text-align: center;
 
-/* H2 */
-font-family: Poppins;
-font-size: 3rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin: 0.31rem 0 0.61rem 0;
+.med-top h1 {
+    color: var(--primery, #A639DF);
+    text-align: center;
+
+    /* H2 */
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0.31rem 0 0.61rem 0;
 }
-.med-top p{
+
+.med-top p {
     color: var(--Dark, #333);
 
-/* H4 */
-font-family: Poppins;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 2rem; /* 177.778% */
+    /* H4 */
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 177.778% */
 }
+
 .med-box {
-	width: 21.125rem;
-	height: 16.1875rem;
-	padding: 4rem 1.25rem 3.31rem;
-	border: 1px solid #B6B6B6;
-	border-radius: 15px;
+    width: 21.125rem;
+    height: 16.1875rem;
+    padding: 4rem 1.25rem 3.31rem;
+    border: 1px solid #B6B6B6;
+    border-radius: 15px;
     position: relative;
 }
-.med-box h2{
+
+.med-box h2 {
     color: var(--Dark, #333);
-text-align: center;
+    text-align: center;
 
-/* H3 */
-font-family: Poppins;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    /* H3 */
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-.med-box p{
+
+.med-box p {
     color: var(--Grey, #515151);
-text-align: center;
+    text-align: center;
 
-/* H4 */
-font-family: Poppins;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 400;
-line-height: 2rem; /* 177.778% */
+    /* H4 */
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+    /* 177.778% */
 }
+
 #med-top-img {
-	position: absolute;
-	top: -16%;
-	left: 37%;
+    position: absolute;
+    top: -16%;
+    left: 37%;
 }
+
 #med-bottom-img {
     position: absolute;
     bottom: -9%;
@@ -80,11 +91,12 @@ line-height: 2rem; /* 177.778% */
     background-color: white;
     display: none;
 }
-.med-box:hover #med-bottom-img{
+
+.med-box:hover #med-bottom-img {
     display: inline-block;
 }
 
-.med-bottom{
+.med-bottom {
     display: flex;
     gap: 1.88rem;
     align-items: center;
@@ -92,16 +104,67 @@ line-height: 2rem; /* 177.778% */
 }
 
 
-.med-bottom-page{
+.med-bottom-page {
     flex-wrap: wrap;
     gap: 1.78rem;
-}
-.med-box-page {
-    flex: 1; /* Make each item equally spaced in the row */
-    margin-top: 0; /* Reset top margin for all items */
+    margin-bottom: 0;
 
-    /* Add margin to the first item in each row (excluding the first row) */
-    &:not(:first-child):nth-child(4n + 1) {
-      margin-top: 3.13remb !important;
-    }
-  }
+}
+
+.med-box-page {
+    margin-top: 3.13rem;
+}
+
+.med-top-page {
+    margin-bottom: 2.5rem;
+}
+.scope{
+    margin-top: 6.25rem;
+    padding: 5rem;
+    background: #FFF;
+filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.05));
+}
+.scope h1{
+    color: var(--primery, #A639DF);
+    text-align: center;
+
+    /* H2 */
+    font-family: Poppins;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.scope hr{
+    margin-block: 1.87rem;
+
+    color: #ECECEC;
+
+}
+.scope-detail{
+    padding-inline: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.88rem;
+    flex-wrap: wrap;
+}
+.scope-box h3{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.94rem    ;
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 160% */
+
+}
+.scope-box{
+
+    padding: 1.56rem 1.88rem;
+    width: 48%;
+height: 5.125rem;
+    background: #FFF;
+filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.05));
+}
