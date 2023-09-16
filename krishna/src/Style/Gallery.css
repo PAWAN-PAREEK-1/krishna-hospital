@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .gallery-down{
     margin-top: 3.13rem;
     display: grid;
@@ -105,3 +109,142 @@ main#carousel {
   input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
   }
+
+
+
+
+
+
+
+
+
+  /* gallary p[age css start here] */
+
+
+
+
+/* Left Side Div */
+
+.left-div{
+  padding:0.69rem 2.5rem 2.5rem;
+}
+.left-div h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.left-div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-div ul li h1 {
+  cursor: pointer;
+  color: #6F6F6F;
+
+  /* H4 */
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 177.778% */
+  border-bottom: 1px solid  #EBEBEB;
+  padding-bottom: 1.31rem;
+  margin-top: 1.81rem;
+  width: 100%;
+}
+#activeimg{
+  display: none;
+}
+
+.left-div li.active h1{
+  color: #A639DF;
+
+  /* Sub 1 */
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-div li.active h1 #activeimg{
+  display: inline-block;
+}
+/* Right Side Div */
+.right-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.image-item {
+  width: 18rem;
+  height: auto;
+}
+
+/* Hide images that are not active */
+.image-item.hidden {
+  display: none;
+}
+
+.row{
+  display: flex;
+  align-items: flex-start;
+  gap:2.313rem;
+}
+.col-md-4{
+  min-width: 30.6875rem;
+  background: #FFF;
+filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.05));
+}
+
+
+
+
+
+
+.gallery {
+  column-count: 3;
+  --webkit-column-count: 4;
+  --moz-column-count: 4;
+  gap: 1rem;
+ 
+}
+
+.image img {
+  height: auto;
+  width: 100%;
+}
+
+/* Responsive-ness for different screen-sizes */
+@media screen and (max-width: 810px) {
+  .gallery {
+    column-count: 3;
+    --webkit-column-count: 3;
+    --moz-column-count: 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    column-count: 2;
+    --webkit-column-count: 2;
+    --moz-column-count: 2;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery {
+    column-count: 1;
+    --webkit-column-count: 1;
+    --moz-column-count: 1;
+  }
+}
+
+
+
+
