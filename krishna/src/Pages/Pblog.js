@@ -1,15 +1,20 @@
 import { lazy, Suspense } from "react";
 import "../Style/Blog.css";
 import "../Style/Global.css";
-import rightarrow from "../Assets/img/rightarrow.svg";
+import "../Style/Medical.css";
 import p1 from "../Assets/img/p1.svg";
 import p2 from "../Assets/img/p2.svg";
 import fface from "../Assets/img/fface.svg";
 import finsta from "../Assets/img/Finsta.svg";
 import flink from "../Assets/img/flink.svg";
 import ftwitter from "../Assets/img/ftwitter.svg";
+import play from "../Assets/img/play.svg";
+import blog2 from "../Assets/img/blog2.svg";
+import blog3 from "../Assets/img/blog3.svg";
+import rightarrow from "../Assets/img/rightarrow.svg";
 const Loading = lazy(() => import("../Components/Loading"));
 const Navbar = lazy(() => import("../Components/Navbar"));
+const Footer = lazy(() => import("../Components/Footer"));
 
 const Pblog = () => {
   return (
@@ -97,6 +102,76 @@ const Pblog = () => {
         </div>
 
         </div>
+        <div className="index blogbg">
+          <div className="main-blog">
+            <div className="blog-top">
+              <div className="med-top med-top2">
+                <div className="span-box about-span ">
+                  <div className="span-box-1 about-span-box med-span-box"></div>
+                  <h3>Latest Insights</h3>
+                </div>
+                <h1>Blog</h1>
+              </div>
+            </div>
+            <div className="blog-bottom">
+              <div className="blogs blogs-page">
+
+                  <div className="blog-post blog-post-page">
+                    <img src={blog3} />
+                    <div className="blog-detail">
+                      <h2>Plan to lower your Blood Pressure.</h2>
+                      <h4>July 12, 2022 No Comments</h4>
+                      <p>If you’re like most people with high blood pressure, drugs are a major part of your plan to lower your blood pressure. Take medications as</p>
+                      <a href="jbj">
+                        <h3>
+                          Read More <img src={rightarrow} alt="" />
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="blog-post blog-post-page">
+                    <img src={blog2} />
+                    <div className="blog-detail">
+                      <h2>Plan to lower your Blood Pressure.</h2>
+                      <h4>July 12, 2022 No Comments</h4>
+                      <p>If you’re like most people with high blood pressure, drugs are a major part of your plan to lower your blood pressure. Take medications as</p>
+                      <a href="jbj">
+                        <h3>
+                          Read More <img src={rightarrow} alt="" />
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="blog-post blog-post-page">
+                    <img src={blog3} />
+                    <div className="blog-detail">
+                      <h2>Plan to lower your Blood Pressure.</h2>
+                      <h4>July 12, 2022 No Comments</h4>
+                      <p>If you’re like most people with high blood pressure, drugs are a major part of your plan to lower your blood pressure. Take medications as</p>
+                      <a href="jbj">
+                        <h3>
+                          Read More <img src={rightarrow} alt="" />
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+              </div>
+
+            </div>
+
+              <div className="all-btn blog-btn load-more-button" >
+                <h4 >
+                View More<img  src={play} alt="" />
+                </h4>
+              </div>
+
+          </div>
+        </div>
+
+            <Footer/>
       </div>
     </Suspense>
   );
