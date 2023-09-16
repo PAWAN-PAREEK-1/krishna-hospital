@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../Style/Blog.css";
+import "../Style/Global.css";
 import play from "../Assets/img/play.svg";
 import b1 from "../Assets/img/b1.svg";
 import b2 from "../Assets/img/b2.svg";

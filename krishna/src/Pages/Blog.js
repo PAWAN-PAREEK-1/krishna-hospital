@@ -1,5 +1,6 @@
 import React, { useState, lazy, Suspense } from "react";
 import "../Style/Blog.css";
+import "../Style/Global.css";
 import play from "../Assets/img/play.svg";
 import b1 from "../Assets/img/b1.svg";
 import b2 from "../Assets/img/b2.svg";
@@ -110,7 +111,7 @@ const Blog = () => {
       <Navbar activeUrl={"/Blog"} />
       <div>
         <div className="hero-all">
-          <h2>Contact Us</h2>
+          <h2>Blog</h2>
         </div>
         <div className="index blogbg">
           <div className="main-blog">

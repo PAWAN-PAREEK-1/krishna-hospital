@@ -12,7 +12,8 @@ import q9 from "../Assets/img/q9.svg";
 import q10 from "../Assets/img/q10.svg";
 import q11 from "../Assets/img/q11.svg";
 import q12 from "../Assets/img/q12.svg";
-
+import "../Style/Global.css";
+import "../Style/Gallery.css";
 
 const Loading = lazy(() => import('../Components/Loading'));
 const Navbar = lazy(() => import('../Components/Navbar'));

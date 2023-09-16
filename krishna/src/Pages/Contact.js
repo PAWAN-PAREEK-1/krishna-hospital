@@ -1,4 +1,6 @@
 import { lazy, Suspense } from 'react';
+import "../Style/Contact.css";
+import "../Style/Global.css";
 import contact from "../Assets/img/contact.svg";
 import play from "../Assets/img/play.svg";
 import cface from "../Assets/img/cface.svg";
