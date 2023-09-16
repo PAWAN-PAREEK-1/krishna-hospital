@@ -1,3 +1,4 @@
+
 .index{
     padding: 6.25rem 15rem 0;
 }
@@ -37,4 +38,17 @@
     display: inline-flex;
     align-items: center;
     gap: 0.94rem;
+}
+.hero-all{
+    background-image: url(../Assets/img//allherobg.svg);
+    padding-block: 9.69rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primery, #A639DF);
+font-family: Poppins;
+font-size: 3.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: 5.625rem; /* 180% */
 }
