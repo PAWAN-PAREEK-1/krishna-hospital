@@ -4,6 +4,7 @@
     background-image: url('../Assets/img/fbg.svg'), url('../Assets/img/fbg2.svg');
   background-position: left top, right bottom; /* Position the images */
   background-repeat: no-repeat, no-repeat;
+  margin-top: 6.25rem;
 
 
 

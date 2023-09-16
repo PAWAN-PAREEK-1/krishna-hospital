@@ -89,3 +89,53 @@ line-height: normal;
     padding-block: 3.13rem;
     padding-inline: 15rem;
 }
+.about-doc{
+    margin: 6.31rem 15rem ;
+    display: flex;
+    align-items: center;
+    gap: 1.88rem;
+}
+.doc-box{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.doc-detail{
+    padding: 1.25rem;
+    background: #FFF;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.07);
+width: 22.9375rem;
+height: 17.5rem;
+background-image: url(../Assets/img/dbg.svg);
+background-position: right bottom;
+background-repeat: no-repeat;
+margin-top: 3rem;
+}
+.doc-detail h2{
+    color: var(--primery, #A639DF);
+
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.doc-detail h4{
+    color: var(--Dark, #333);
+
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0.62rem 0 1.88rem;
+}
+.doc-detail h3{
+    color: var(--Grey, #515151);
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0.62rem;
+}

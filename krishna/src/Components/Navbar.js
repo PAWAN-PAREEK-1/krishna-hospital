@@ -53,7 +53,7 @@ const Navbar = ({ activeUrl }) => {
             </li>
             <li className={activeUrl == "/Pateint" ? "active" : null}>
               <NavLink to="/Pateint" onClick={closeMenu}>
-                Pateint
+              Patients & Visitors
               </NavLink>
               <div></div>
             </li>
@@ -141,7 +141,7 @@ const Navbar = ({ activeUrl }) => {
                 className="active"
                 onClick={closeMenu}
               >
-                Pateint
+                Patients & Visitors
               </NavLink>
             </li>
             <li>
