@@ -45,7 +45,7 @@ const Footer = () => {
 
 
             </div>
-            <div className="col-2">
+            <div className="col-2 footer-col-2">
               <h1>Contact Us</h1>
 
               <a href=""><h2> <img src={fcall} alt="" />9825300424  9714533633</h2></a>

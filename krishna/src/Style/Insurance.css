@@ -38,3 +38,27 @@ font-weight: 600;
 line-height: normal;
 padding-inline: 3.2rem;
 }
+
+@media (max-width: 768px) {
+    .ins-box img{
+        width: 100%;
+    }
+    .ins-box{
+        width: 45%;
+        padding: 0.44rem;
+        height: 11rem;
+    }
+    .ins-bottom{
+        gap: 0.94rem;
+    }
+    .ins-box h1{
+        padding-inline: 0;
+font-size: 0.875rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .insurance{
+        padding-bottom: 0;
+    }
+
+}

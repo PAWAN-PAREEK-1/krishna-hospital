@@ -10,7 +10,7 @@ const Attachment = () => {
   return (
     <div>
         <div className="index">
-        <div className="med-top med-top2">
+        <div className="med-top med-top2 med-att">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
                 <h3 className="mobile-h3">Latest Insights</h3>

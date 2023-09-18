@@ -6,3 +6,19 @@
     border-bottom: 0.2px solid rgba(166, 57, 223, 0.1);
     padding-block: 3.12rem;
 }
+
+@media (max-width:768px){
+    .com{
+        flex-direction: column;
+        border: none;
+        gap: 0.94rem;
+        padding-inline: 5rem;
+        padding-block: 0;
+    }
+    .com img{
+        width: 100%;
+    }
+    .med-att{
+        margin-bottom: 0.94rem;
+    }
+}
