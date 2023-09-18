@@ -258,6 +258,28 @@ filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.05));
   .gallery-down{
     margin-top: 1rem;
   }
+  .left-div li h1{
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.875rem; /* 187.5% */
+  }
+  .left-div{
+    padding: 0.94rem;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .col-md-4{
+    min-width: 100%;
+  }
+  .left-div ul li h1{
+    padding-bottom: 0.81rem;
+  margin-top: 0.81rem;
+  }
+  .image-item{
+    width: 100%;
+  }
 }
 
 
