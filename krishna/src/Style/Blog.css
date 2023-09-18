@@ -279,3 +279,38 @@ font-weight: 400;
 line-height: 2rem; /* 160% */
 padding-top: 0.63rem;
   }
+
+
+  @media (max-width: 768px) {
+    .med-top{
+      align-items: baseline;
+    }
+    .blog-top{
+      width: 100%;
+    }
+    .blogs {
+      flex-direction: column;
+    }
+    .blog-detail{
+      padding: 0.62rem;
+    }
+    .blog-detail h2{
+font-size: 1.25rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .blog-detail h4{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 0.63rem;
+    }
+    .blog-detail p{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .blog-btn{
+      margin-top: 0;
+    }
+  }

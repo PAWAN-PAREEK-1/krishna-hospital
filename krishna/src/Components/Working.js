@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/About.css";
 import "../Style/Work.css";
+import "../Style/Global.css";
 import work from "../Assets/img/work.svg";
 import wtime from "../Assets/img/wtime.svg";
 import wcall from "../Assets/img/wcall.svg";
@@ -11,7 +12,7 @@ const Working = () => {
       <div className="index">
         <div className="work-index">
           <div className="work-left">
-            <img src={work} alt="" />
+            <img src={work} alt="" id="work-img" />
 
             <h3>Working Hour</h3>
             <p>

@@ -148,3 +148,27 @@ padding-bottom: 0.62rem;
         margin: 6.31rem 3rem;
     }
 }
+
+
+@media (max-width: 768px) {
+    .about-span h3{
+font-size: 0.875rem;
+font-weight: 600;
+line-height: normal;
+    }
+
+    .about-box-1{
+        gap: 0.63rem;
+        align-items: flex-start;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .about-main{
+        flex-direction: column-reverse;
+    }
+    .about-right img{
+        width: 100%;
+
+    }
+}

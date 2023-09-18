@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/Contact.css"
+import "../Style/Global.css";
 import contact from "../Assets/img/contact.svg";
 import play from "../Assets/img/play.svg";
 
@@ -12,10 +13,10 @@ const Contact = () => {
                 <div className="med-top med-top2">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
-                <h3>Contact Us For Further Information !</h3>
+                <h3 className="mobile-h3">Contact Us For Further Information !</h3>
               </div>
-              <h1>Get In Touch</h1>
-              <p>We at Krishna Hospital believe in making available High Quality, expert healthcare to people by inventing, adapting World's Best technologies and practices.</p>
+              <h1 className="mobile-h1">Get In Touch</h1>
+              <p className="mobile-p"> We at Krishna Hospital believe in making available High Quality, expert healthcare to people by inventing, adapting World's Best technologies and practices.</p>
             </div>
                 </div>
                 <div className="contact-bottom">

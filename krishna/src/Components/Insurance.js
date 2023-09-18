@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/Insurance.css";
+import "../Style/Global.css";
 import i1 from "../Assets/img/i1.svg";
 import i2 from "../Assets/img/i2.svg";
 import i3 from "../Assets/img/i3.svg";
@@ -19,9 +20,9 @@ const Insurance = () => {
             <div className="med-top med-top2">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
-                <h3>Latest Insights</h3>
+                <h3 className="mobile-h3">Latest Insights</h3>
               </div>
-              <h1>Mediclaim (Insurance) Facility</h1>
+              <h1 className="mobile-h1">Mediclaim (Insurance) Facility</h1>
             </div>
           </div>
           <div className="ins-bottom">

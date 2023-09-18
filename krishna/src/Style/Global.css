@@ -71,3 +71,40 @@ line-height: 5.625rem; /* 180% */
 .index{
     overflow-x: hidden;
 }
+
+
+@media (max-width:768px){
+    .span-box-1{
+        width: 3.1875rem;
+height: 1.75rem;
+top: -4.1px;
+    }
+    .index{
+        padding: 1.63rem 1rem;
+    }
+  .mobile-h3{
+    color: var(--Dark, #333);
+font-family: Poppins;
+font-size: 0.875rem !important;
+font-style: normal;
+font-weight: 600 !important;
+line-height: normal !important;
+  }
+  .mobile-h1{
+    color: var(--primery, #A639DF);
+    font-family: Poppins;
+    font-size: 1.5rem !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: normal !important;
+  }
+  .mobile-p{
+    color: var(--Dark, #333);
+    font-family: Poppins;
+    font-size: 0.875rem !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+  }
+ 
+}

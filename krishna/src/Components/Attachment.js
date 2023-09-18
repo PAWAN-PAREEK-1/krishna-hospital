@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/Attachment.css";
+import "../Style/Global.css";
 import a1 from "../Assets/img/s4.svg";
 import a2 from "../Assets/img/a3.svg";
 import a3 from "../Assets/img/a2.svg";
@@ -12,9 +13,9 @@ const Attachment = () => {
         <div className="med-top med-top2">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
-                <h3>Latest Insights</h3>
+                <h3 className="mobile-h3">Latest Insights</h3>
               </div>
-              <h1>Attachments</h1>
+              <h1 className="mobile-h1">Attachments</h1>
                 </div>
 
                 <div className="com">

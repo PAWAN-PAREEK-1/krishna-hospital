@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/Gallery.css";
+import "../Style/Global.css";
 import g1 from "../Assets/img/g1.svg";
 
 const Gallery = () => {
@@ -7,12 +8,12 @@ const Gallery = () => {
     <div>
       <div className="index">
         <div className="gallery-index">
-          <div className="med-top">
+          <div className="med-top g-top">
             <div className="span-box about-span ">
               <div className="span-box-1 about-span-box med-span-box"></div>
-              <h3>Visual Gallery</h3>
+              <h3 className="mobile-h3">Visual Gallery</h3>
             </div>
-            <h1>Gallery</h1>
+            <h1 className="mobile-h1">Gallery</h1>
           </div>
 
           <div className="gallery-down">

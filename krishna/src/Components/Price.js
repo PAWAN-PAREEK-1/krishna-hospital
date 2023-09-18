@@ -1,5 +1,6 @@
 import React from "react";
 import "../Style/Price.css";
+import "../Style/Global.css";
 import leftarrow from "../Assets/img/leftarrow.svg";
 
 const Price = () => {
@@ -11,9 +12,9 @@ const Price = () => {
             <div className="med-top med-top2">
               <div className="span-box about-span ">
                 <div className="span-box-1 about-span-box med-span-box"></div>
-                <h3>Schedule a Home Visit</h3>
+                <h3 className="mobile-h3"> Schedule a Home Visit</h3>
               </div>
-              <h1>Free Home Visit</h1>
+              <h1 className="mobile-h1">Free Home Visit</h1>
             </div>
           </div>
 

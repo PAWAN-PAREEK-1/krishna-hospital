@@ -1,5 +1,7 @@
 import React from "react";
+import "../Style/Global.css";
 import "../Style/About.css";
+
 
 import con from "../Assets/img/confi.svg";
 import cal from "../Assets/img/cal.svg";
@@ -15,12 +17,12 @@ const About = () => {
         <div className="about-main">
           <div className="about-left">
             <div className="span-box about-span">
-              <div className="span-box-1 about-span-box"></div>
-              <h3>High Quality Patient Care</h3>
+              <div className="span-box-1 about-span-box "></div>
+              <h3 className="mobile-h3">High Quality Patient Care</h3>
             </div>
 
-            <h1>About Us</h1>
-            <p>Krishna Medical Hospital and ICU was set with the aim of giving the best care to all its patients. The objective is to ensure that the patient is looked after until he is completely healthy and recovered.</p>
+            <h1 className="mobile-h1">About Us</h1>
+            <p className="mobile-p">Krishna Medical Hospital and ICU was set with the aim of giving the best care to all its patients. The objective is to ensure that the patient is looked after until he is completely healthy and recovered.</p>
             <div className="about-box">
                 <div className="about-box-1">
                         <img src={con} alt="" />
@@ -54,15 +56,17 @@ const About = () => {
             </div>
 
             <a href="">
-                <div className="all-btn">
+                <div className="all-btn mobile-hide">
                   <h4>
                   View More <img src={play} alt="" />
                   </h4>
                 </div>
               </a>
           </div>
-          <div className="about-right"></div>
+          <div className="about-right">
           <img src={hero} alt="" />
+          </div>
+
         </div>
       </div>
     </div>

@@ -98,3 +98,52 @@ font-weight: 600;
 line-height: 2.875rem; /* 131.429% */
 padding-left: 1.2rem;
 }
+
+
+@media (max-width: 768px) {
+    .price-bottom{
+        flex-direction: column;
+    }
+    .price-box{
+        width: 100%;
+       padding: 4.13rem 0.96rem 0.96rem 0.96rem;
+    }
+    .price-lable {
+        width: 4.725rem;
+        height: 4.5625rem;
+        top: -1.3rem;
+    }
+    .price-lable h1{
+font-size: 1rem;
+font-weight: 600;
+line-height: normal;
+padding-left: 0.8rem;
+    }
+    .price-box h2{
+font-size: 1.25rem;
+font-weight: 600;
+line-height: normal;
+padding-inline:0 ;
+    }
+    .right-price{
+        margin-block: 0.94rem 0.62rem;
+    }
+    .price-box h5{
+font-size: 1.125rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .right-price h4{
+font-size: 1.125rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .price-box h3{
+font-size: 1rem;
+margin-block: 0.62rem;
+font-weight: 400;
+line-height: normal;
+gap:    0.62rem;
+    }
+
+}

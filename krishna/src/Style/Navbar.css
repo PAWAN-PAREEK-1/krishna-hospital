@@ -13,7 +13,7 @@ a {
 
 .navbar{
     padding: 1.56rem 15rem;
-   
+
     width: 100%;
     background: #FFF;
 }
@@ -198,6 +198,9 @@ text-transform: capitalize;
 }
 
 @media (max-width:768px) {
+    nav{
+        background-color: black;
+    }
     .navbar{
         padding: 0.94rem    ;
     }

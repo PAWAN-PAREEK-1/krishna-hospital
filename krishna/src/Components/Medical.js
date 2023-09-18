@@ -16,11 +16,11 @@ const Medical = () => {
           <div className="med-top">
             <div className="span-box about-span ">
               <div className="span-box-1 about-span-box med-span-box"></div>
-              <h3>Medical Infrastructure List</h3>
+              <h3 className="mobile-h3">Medical Infrastructure List</h3>
 
             </div>
-            <h1>Health Facilities</h1>
-            <p>Krishna Hospital have been a one stop put for all health issues.</p>
+            <h1 className="mobile-h1">Health Facilities</h1>
+            <p className="mobile-p">Krishna Hospital have been a one stop put for all health issues.</p>
           </div>
           <div className="med-bottom">
 
@@ -51,7 +51,7 @@ const Medical = () => {
           </div>
 
           <a href="">
-                <div className="all-btn">
+                <div className="all-btn mobile-hide">
                   <h4>
                   View More <img src={play} alt="" />
                   </h4>
