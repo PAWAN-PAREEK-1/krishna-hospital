@@ -145,5 +145,8 @@ font-weight: 400;
 line-height: normal;
 gap:    0.62rem;
     }
+    .price-bottom{
+        margin-top: 0;
+    }
 
 }

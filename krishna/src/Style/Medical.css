@@ -182,7 +182,42 @@ line-height: 2rem; /* 177.778% */
     }
     .med-bottom{
         flex-direction: column;
-        gap: 4.87rem;
+
         margin-bottom: 0;
+    }
+    .med-top h1{
+font-size: 1.5rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .med-top p{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .scope{
+        margin-top: 1rem;
+        padding: 0.96rem;
+    }
+    .scope h1{
+font-size: 1.5rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .scope hr{
+        margin-block: 0.62rem;
+    }
+    .scope-box h3{
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 228.571% */
+    }
+    .scope-box{
+        padding: 0.5rem 0.62rem;
+        width: 100%;
+    }
+    .scope-detail{
+        gap: 0.52rem;
     }
 }
