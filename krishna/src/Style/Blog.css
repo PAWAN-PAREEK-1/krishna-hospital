@@ -313,4 +313,14 @@ line-height: normal;
     .blog-btn{
       margin-top: 0;
     }
+    .blog-med-top{
+      margin-bottom: 1rem !important;
+    }
+    .blog-post-page{
+      width: 100%;
+      min-height: fit-content;
+    }
+    .blogs{
+      gap: 0.94rem;
+    }
   }

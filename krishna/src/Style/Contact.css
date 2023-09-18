@@ -149,4 +149,40 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.09);
         position: initial;
     }
 
+    .con{
+        position: initial;
+        flex-direction: column;
+        width: 100%;
+    }
+    .social-icons-conatct{
+        padding: 0.94rem;
+        width: 100%;
+        height: fit-content;
+    }
+    .social-detail h3{
+font-size: 1rem;
+font-weight: 600;
+line-height: normal;
+padding-bottom: 0;
+    }
+    .social-detail h4{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: 1.0625rem; /* 235.714% */
+    }
+    .social-2{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+padding: 0.94rem;
+width: 100%;
+    }
+    .social-links img{
+        width: 2.5rem;
+height: 2.5rem;
+    }
+    .social-links{
+        gap: 1.25rem;
+    }
+
 }
