@@ -105,7 +105,7 @@ const Pblog = () => {
         <div className="index blogbg">
           <div className="main-blog">
             <div className="blog-top">
-              <div className="med-top med-top2">
+              <div className="med-top med-top2 blog-med-top">
                 <div className="span-box about-span ">
                   <div className="span-box-1 about-span-box med-span-box"></div>
                   <h3>Latest Insights</h3>

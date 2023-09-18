@@ -323,4 +323,57 @@ line-height: normal;
     .blogs{
       gap: 0.94rem;
     }
+    .pblog-detail{
+      flex-direction: column;
+    }
+    .pblog-detail img{
+      width: 100%;
+    }
+    .b-de{
+      padding: 0.94rem;
+      width: 100%;
+    }
+    .b-de h2{
+font-size: 1.25rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .pb-pb h4{
+font-size: 0.875rem;
+font-weight: 500;
+line-height: normal;
+    }
+    .pb-de img{
+      width: min-content;
+    }
+    .p-social h3{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .p-social-link img{
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    .p-social-link{
+      gap: 1.25rem;
+    }
+    .page-blog-detail h1{
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .page-blog-detail h6{
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .page-blog-detail p{
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
   }
