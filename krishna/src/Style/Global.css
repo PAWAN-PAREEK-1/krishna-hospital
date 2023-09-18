@@ -65,5 +65,9 @@ line-height: 5.625rem; /* 180% */
         padding-inline: 3.25rem 3rem ;
     }
 
-   
+
+}
+
+.index{
+    overflow-x: hidden;
 }
