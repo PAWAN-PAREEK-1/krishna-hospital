@@ -106,5 +106,14 @@ line-height: normal !important;
     font-weight: 400 !important;
     line-height: normal !important;
   }
- 
+
+  .hero-all{
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-block: 8rem;
+background-size: cover  ;
+  }
+
 }

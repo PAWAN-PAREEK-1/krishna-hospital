@@ -171,4 +171,53 @@ line-height: normal;
         width: 100%;
 
     }
+    .about-left h1{
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+    .about-left p{
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .about-box-page{
+        margin-block: 0 0.94rem;
+        padding: 0.94rem;
+        border: none;
+    }
+    .about-doc{
+        margin: 0.96rem;
+        flex-direction: column;
+    }
+    .doc-detail h2{
+font-size: 0.875rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .doc-detail h4{
+        padding: 0;
+font-size: 0.875rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .doc-detail{
+height: fit-content;
+background:none ;
+padding: 0.63rem;
+margin-top: 0;
+
+    }
+    .doc-detail h3{
+        color: var(--Grey, #515151);
+font-family: Poppins;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .doc-box img{
+        width: 100%;
+    }
 }
