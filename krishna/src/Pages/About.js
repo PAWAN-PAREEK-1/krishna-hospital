@@ -7,6 +7,8 @@ import heart from "../Assets/img/heart.svg";
 import d1 from "../Assets/img/d1.svg";
 import d2 from "../Assets/img/d2.svg";
 import "../Style/About.css";
+
+import "../Style/Global.css";
 const Loading = lazy(() => import("../Components/Loading"));
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Footer = lazy(() => import("../Components/Footer"));

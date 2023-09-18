@@ -1,4 +1,5 @@
 import { lazy, Suspense } from 'react';
+import "../Style/Global.css";
 const Loading = lazy(() => import('../Components/Loading'));
 const Navbar = lazy(() => import('../Components/Navbar'));
 const Footer = lazy(() => import("../Components/Footer"));
